@@ -1,0 +1,9 @@
+query Review {
+  Review {
+    id
+    summary
+    media {
+      description
+    }
+  }
+}
