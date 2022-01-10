@@ -7,7 +7,8 @@ import OurServices from '../src/components/Services';
 import FooterPage from '../src/components/Footer';
 import LeadingPage from '../src/components/Leading';
 import DownloadPage from '../src/components/Download';
-import TestimonialsPage from '../src/components/Testimonials';
+import Reviews from '../src/components/Testimonials';
+import OurArticles from '../src/components/Articles';
 
 const Home: NextPage = () => {
   return (
@@ -26,7 +27,8 @@ const Home: NextPage = () => {
       <OurServices />
       <LeadingPage />
       <DownloadPage />
-      <TestimonialsPage />
+      <Reviews />
+      <OurArticles />
       <FooterPage />
     </section>
   );

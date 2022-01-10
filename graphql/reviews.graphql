@@ -1,0 +1,19 @@
+query ReviewUser($sort: [ReviewSort]) {
+  Page {
+    reviews(sort: $sort) {
+      id
+      userId
+      summary
+      user {
+        name
+        avatar {
+          medium
+        }
+        options {
+          titleLanguage
+          profileColor
+        }
+      }
+    }
+  }
+}

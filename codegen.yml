@@ -1,6 +1,6 @@
 overwrite: true
 schema:
-  - https://graphql.anilist.co
+  - 'https://graphql.anilist.co'
 
 documents: './graphql/**/*.graphql'
 generates:

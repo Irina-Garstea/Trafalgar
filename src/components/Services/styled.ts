@@ -1,6 +1,6 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
- const StyledService = styled.section`
+const StyledService = styled.section`
 background-color: #ffffff;
 
 #services {
@@ -23,7 +23,6 @@ background-color: #ffffff;
     margin-top: -480px;
 }
 
-
 .group-services {
   display: inline-block;
   width: 200px;
@@ -35,7 +34,6 @@ background-color: #ffffff;
 
 .group-services:hover{
   border: 3px solid #458FF6;
-
 }
 
 .group {
@@ -45,11 +43,11 @@ background-color: #ffffff;
 }
 .medicine {
   font-size: 12px;
-  text-align: left;text-align: justify
+  text-align: left;
   height: 1px;
   letter-spacing: 1px;
   opacity: 0.6;
-  padding: 8px;
+  padding: 5px;
 }
 
 
@@ -74,6 +72,6 @@ background-color: #ffffff;
 }
 
   
-`
+`;
 
-  export default StyledService;
+export default StyledService;
