@@ -1,15 +1,14 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
 const Head = styled.section`
-background-color: #ffffff;
-margin-left: 75px;
+  background-color: #ffffff;
+  margin-left: 75px;
 
-.info {
-  float: left;
-   max-width: 300px;
-   margin-top: 70px;
-   margin-left: 50px;
-  padding-top: 70px;
+  .info {
+    float: left;
+    max-width: 300px;
+
+    margin-left: 50px;
   }
   #service-info {
     font-size: 34px;
@@ -19,8 +18,8 @@ margin-left: 75px;
     letter-spacing: 1px;
     font-weight: 300;
   }
-  .btn { 
-    background: #458FF6;
+  .btn {
+    background: #458ff6;
     border-radius: 55px;
     border: hidden;
     color: #ffffff;
@@ -28,7 +27,7 @@ margin-left: 75px;
     font-size: 17px;
     height: 56px;
     width: 160px;
-    margin-top:30px;
+    margin-top: 30px;
     cursor: pointer;
   }
   .btn:hover {
@@ -36,17 +35,11 @@ margin-left: 75px;
   }
   .img {
     float: right;
-    margin: 10%;
+    margin-right: 10%;
   }
-  #image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    }
+
   .img-dotted {
     margin-left: -60px;
-    margin-top: 70px;
-    margin-bottom: -40px;
   }
-`
+`;
 export default Head;

@@ -12,7 +12,7 @@ const HeadPage = () => {
           <Image
             id="image-dotted"
             src={'/Images/image4.png'}
-            width={100}
+            width={70}
             height={100}
             alt="No photo"
           />

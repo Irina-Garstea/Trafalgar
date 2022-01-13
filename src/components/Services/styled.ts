@@ -2,6 +2,8 @@ import styled from '@emotion/styled';
 
 const StyledService = styled.section`
 background-color: #ffffff;
+margin-top: -100px;
+
 
 #services {
     font-size: 30px;
@@ -12,15 +14,15 @@ background-color: #ffffff;
   .rectangle {
     margin-left: 45%;
   }
-.content {
+.paragraph {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: -480px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: -590px;
 }
 
 
@@ -64,7 +66,7 @@ background-color: #ffffff;
   font-weight: 600;
   border: 1px solid #458FF6;
   border-radius: 14px;
-  width: 120px;
+  width: 160px;
   height: 30px;
   cursor: pointer;
 }

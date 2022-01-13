@@ -7,7 +7,7 @@ const LeadingPage = () => {
       <section className="leading">
         <div className="img-leading">
           <Image
-            id="img-leading"
+            id="image-leading"
             src={'/Images/image2.png'}
             width={522}
             height={447}
