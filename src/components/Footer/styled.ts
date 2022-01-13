@@ -12,11 +12,11 @@ const StyleFooter = styled.div`
   padding-bottom: 50px;
 
   .footer ul li:hover {
-    border: 1px solid #67c3f3;
+    box-shadow: 0 0 0 1px #67c3f3;
     font-weight: bold;
   }
   .list-footer:hover {
-    border: 1px solid #67c3f3;
+    box-shadow: 0 0 0 1px #67c3f3;
     cursor: pointer;
   }
 

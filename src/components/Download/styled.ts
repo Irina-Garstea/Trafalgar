@@ -1,12 +1,11 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
-
-const StyledDownload =styled.div`
+const StyledDownload = styled.div`
 margin-top:60px;
 margin-left: 80px;
 padding-top: 60px;
 
-.paragrapth-download {
+#paragrapth-download {
   text-align:justify;
   width: 300px;
   font-weight: 300;
@@ -32,10 +31,7 @@ padding-top: 60px;
   border: 3px solid #458FF6;
 }
 
-
-
-  
 }
-  `
+  `;
 
-  export default StyledDownload;
+export default StyledDownload;

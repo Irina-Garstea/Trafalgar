@@ -1,12 +1,25 @@
 import styled from '@emotion/styled';
 
-const ArticlesStyled = styled.section`
-  margin-left: 10%;
+export const ArticleStyled = styled.div`
+  padding: 200px 70px;
 
-  .blog {
-    font-size: 18px;
-    width: 250px;
-    text-align: justify;
+  p {
   }
 `;
-export default ArticlesStyled;
+
+export const ImageWrapper = styled.div<{ width: string; height: string }>`
+  width: ${(props) => props.width || '100'}px;
+  height: ${(props) => props.height || '100'}px;
+  overflow: hidden;
+  object-fit: contain;
+`;
+
+export const Desctiption = styled.div<{ $readMore: boolean }>`
+  ${(props) =>
+    !props.$readMore &&
+    `  display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;`}
+`;

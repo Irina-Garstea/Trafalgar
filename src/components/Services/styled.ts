@@ -23,6 +23,8 @@ background-color: #ffffff;
     margin-top: -480px;
 }
 
+
+
 .group-services {
   display: inline-block;
   width: 200px;
@@ -30,10 +32,11 @@ background-color: #ffffff;
   background-color: #ffffff; 
   box-shadow: 10px 40px 50px  #e6f2ff;
   margin: 90px;
+  padding: 5px 0 0 7px;
 }
 
-.group-services:hover{
-  border: 3px solid #458FF6;
+.group-services:hover {
+  box-shadow: 0 0 0 5px #67C3F3;
 }
 
 .group {

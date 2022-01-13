@@ -14369,6 +14369,11 @@ react-read-more@^1.0.0:
   dependencies:
     rimraf "^2.5.4"
 
+react-readmore@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-readmore/-/react-readmore-1.0.2.tgz#b2ff5927fd1e77303375ccbedbb725d363ad8bb9"
+  integrity sha1-sv9ZJ/0edzAzdcy+27cl02Oti7k=
+
 react-refresh@0.8.3, react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -14410,6 +14415,11 @@ react-shallow-renderer@^16.13.1:
   dependencies:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0"
+
+react-show-more-button@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-show-more-button/-/react-show-more-button-1.0.0.tgz#5cee8f27977ec0636af649bb0cdd0422f66a8614"
+  integrity sha512-uDCVO99RB/nkDiW0Gztj3buxX3cEeoVc5pIrapYU6P40Msq5b28Krdi7c3BqqYF+W5Xz/eG3LSDmUfu3d6/k3A==
 
 react-sizeme@^3.0.1:
   version "3.0.2"
@@ -14479,6 +14489,11 @@ react@17.0.2:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+read-more-react@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/read-more-react/-/read-more-react-1.0.10.tgz#d384d0d1403ab5705e309b44574af71810fded6f"
+  integrity sha512-8IRDU/tJX1hLbHjPxJHeUxAhm/wC8RHPSbAA+3mS7Dk13/PJf9ra7Z18apkqqPkENIoEaQI5NqhIMQIa1vOxfw==
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
