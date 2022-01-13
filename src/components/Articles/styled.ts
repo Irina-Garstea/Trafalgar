@@ -1,10 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ArticleStyled = styled.div`
-  padding: 200px 70px;
-
-  p {
-  }
+  padding: 350px 0 0 160px;
 `;
 
 export const ImageWrapper = styled.div<{ width: string; height: string }>`
@@ -21,5 +18,6 @@ export const Desctiption = styled.div<{ $readMore: boolean }>`
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;`}
+    -webkit-box-orient: vertical;
+    font-weight: 300;`}
 `;
