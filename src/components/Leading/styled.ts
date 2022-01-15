@@ -18,7 +18,7 @@ const StyledLeading = styled.div`
   }
   .img-leading {
     margin-top: 90px;
-    margin-left: 50px;
+    margin-left: 10%;
   }
   .button-btn-btn {
     background-color: #ffffff;

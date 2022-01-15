@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-
 import { ButtonProps } from './Button';
 import * as S from './styled';
 

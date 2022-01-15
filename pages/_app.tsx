@@ -7,7 +7,6 @@ import theme from '../src/components/theme';
 import { EmotionCache } from '@emotion/cache';
 import createEmotionCache from '../src/components/theme/createEmotionCache';
 import { useApollo } from './../src/utils/Client';
-
 import { CacheProvider } from '@emotion/react';
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

@@ -8,6 +8,8 @@ import FooterPage from '../src/components/Footer';
 import LeadingPage from '../src/components/Leading';
 import DownloadPage from '../src/components/Download';
 import Reviews from '../src/components/Testimonials';
+import TitleArticle from '../src/components/ArticleTitle';
+import BasicButtons from '../src/components/ViewallButton';
 import { Articles } from '../src/components/Articles';
 import { Box } from '@mui/material';
 
@@ -28,6 +30,7 @@ const Home: NextPage = () => {
       <OurServices />
       <LeadingPage />
       <DownloadPage />
+      <TitleArticle />
       <Box sx={{ display: 'flex' }}>
         <Articles
           width="250"
@@ -55,20 +58,18 @@ const Home: NextPage = () => {
           alt="no-photo"
           title="Herbal medicines that are 
         safe for consumption"
-          description="Products made from botanicals, or plants, that are used to treat diseases or to maintain health are called herbal products, botanical products, or phytomedicines. A product made from plants and used solely for internal use is called an herbal supplement.
-        
-        Many prescription drugs and over-the-counter medicines are also made from plant products, but these products contain only purified ingredients and are regulated by the FDA. Herbal supplements may contain entire plants or plant parts."
+          description="Products made from botanicals, or plants, that are used to treat diseases or to maintain health are called herbal products, botanical products, or phytomedicines. A product made from plants and used solely for internal use is called an herbal supplement. Many prescription drugs and over-the-counter medicines are also made from plant products, but these products contain only purified ingredients and are regulated by the FDA. Herbal supplements may contain entire plants or plant parts."
         />
         <Articles
           width="250"
           height="200"
           src="/Images/skin.png"
           alt="no-photo"
-          title="Natural care for healthy 
-        facial skin"
+          title="Natural care for healthy facial skin"
           description="Clean beauty is on the rise. You can see it on social media, where influencers tout that going all-natural has helped their skin look better than ever. You can see it on store shelves, where countless products market themselves alongside pictures of beautiful plants and use lingo like “nontoxic.” And many of us are taking interest: Up to 50 percent of women seek out all-natural or organic ingredients in facial skin-care products and buy those that are free of chemicals like phthalates and sulfates, according to a 2017 survey from the NPD Group."
         />
       </Box>
+      <BasicButtons />
       <Reviews />
       <FooterPage />
     </section>

@@ -13,7 +13,7 @@ const OurReviews = () => {
           return (
             <S.Wrapper key={item?.id}>
               <img
-                id="image-man"
+                id="images"
                 src={item?.user?.avatar?.medium}
                 width={120}
                 height={120}

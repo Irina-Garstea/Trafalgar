@@ -35,6 +35,7 @@ const OurServices = () => {
               </linearGradient>
             </defs>
           </svg>
+
           <div className="paragraph">
             <p>
               We provide to you the best choiches for you. Adjust it to your health needs and make

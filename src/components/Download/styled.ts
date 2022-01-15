@@ -10,11 +10,16 @@ padding-top: 60px;
   width: 300px;
   font-weight: 300;
   letter-spacing: 1px;  
+  margin-left: 10%;
+}
+h2 {
+  margin-left: 10%;
 }
 
 .img-download {
   float:right;
   margin-top: -290px;
+  margin-right: 10%;
 }
 .download-button {
   background-color: #ffffff;
@@ -25,6 +30,8 @@ padding-top: 60px;
   border-radius: 14px;
   width: 120px;
   height: 30px;
+  margin-top: 30px;
+  margin-left: 10%;
   cursor: pointer;
 }
 .download-button:hover {

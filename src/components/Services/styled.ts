@@ -25,16 +25,15 @@ margin-top: -100px;
     margin-top: -590px;
 }
 
-
-
 .group-services {
   display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: #ffffff; 
+  width: 250px;
+  height: 250px;
+  background-color:  #ffffff;; 
   box-shadow: 10px 40px 50px  #e6f2ff;
-  margin: 90px;
-  padding: 5px 0 0 7px;
+  border-radius: 18px;
+  margin: 60px 20px 40px 40px;
+  padding: 37px 0 0 12px;
 }
 
 .group-services:hover {
@@ -66,7 +65,7 @@ margin-top: -100px;
   font-weight: 600;
   border: 1px solid #458FF6;
   border-radius: 14px;
-  width: 160px;
+  width: 140px;
   height: 30px;
   cursor: pointer;
 }
